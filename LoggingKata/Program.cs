@@ -20,9 +20,9 @@ namespace LoggingKata
 
             var parser = new TacoParser();
 
-            var locations = lines.Select(parser.Parse);
+            var locations = lines.Select(parser.Parse).ToArray();
 
-            // TODO:  Find the two Taco Bells in Alabama that are the furthest from one another.
+            // TODO:  Find the two Taco Bells that are the furthest from one another.
             // HINT:  You'll need two nested forloops
         }
     }
