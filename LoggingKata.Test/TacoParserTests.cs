@@ -9,6 +9,12 @@ namespace LoggingKata.Test
         public void ShouldDoSomething()
         {
             // TODO: Complete Something, if anything
+
+            //arange 
+            
+            //act
+
+            //assert
         }
 
         [Theory]
@@ -16,6 +22,12 @@ namespace LoggingKata.Test
         public void ShouldParse(string str)
         {
             // TODO: Complete Should Parse
+
+            //arange 
+
+            //act
+
+            //assert
         }
 
         [Theory]
@@ -24,6 +36,12 @@ namespace LoggingKata.Test
         public void ShouldFailParse(string str)
         {
             // TODO: Complete Should Fail Parse
+
+            //arange 
+
+            //act
+
+            //assert
         }
     }
 }
