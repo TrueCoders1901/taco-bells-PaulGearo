@@ -13,7 +13,7 @@
         /// <returns></returns>
         public ITrackable Parse(string line)
         {
-            logger.LogInfo("Begin parsing");
+            
 
             // Do not fail if one record parsing fails, return null
             //return null; // TODO Implement
